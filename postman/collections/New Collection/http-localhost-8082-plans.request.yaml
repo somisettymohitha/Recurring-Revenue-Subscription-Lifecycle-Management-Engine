@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:8082/plans
+description: ""
+url: http://localhost:8082/plans
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Basic Plan\",\r
+
+    \    \"price\": 199.0,\r
+
+    \    \"durationDays\": 30\r
+
+    }"
+order: 1789639644069
